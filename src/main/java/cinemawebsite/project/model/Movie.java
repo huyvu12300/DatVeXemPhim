@@ -1,4 +1,4 @@
-package Model;
+package cinemawebsite.project.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
