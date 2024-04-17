@@ -1,4 +1,4 @@
-package service.impl;
+package cinemawebsite.project.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

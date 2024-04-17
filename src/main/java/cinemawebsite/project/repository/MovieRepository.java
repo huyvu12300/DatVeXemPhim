@@ -2,14 +2,10 @@ package cinemawebsite.project.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import pl.markowski.kinoteatr.model.Repertoire;
-
-import java.util.List;
+import pl.cinemapj.ADVH.model.Movie;
 
 @Repository
-public interface RepertoireRepository extends JpaRepository<Repertoire, Long> {
+public interface MovieRepository extends JpaRepository<Movie, Long> {
 
-    List<Repertoire> findByMovieId(final Long movieId);
-
-    List<Repertoire> findBySpectacleId(final Long spectacleId);
+    Movie findByTitle(final String title);
 }
