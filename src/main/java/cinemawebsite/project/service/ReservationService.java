@@ -1,4 +1,4 @@
-package service;
+package cinemawebsite.project.service;
 
 import org.springframework.ui.Model;
 import pl.cinemapj.ADVH.model.ReserveSeatConfiguration;

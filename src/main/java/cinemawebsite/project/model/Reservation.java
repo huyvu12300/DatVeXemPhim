@@ -1,4 +1,4 @@
-package model;
+package cinemawebsite.project.model;
 
 import lombok.Getter;
 import lombok.Setter;
